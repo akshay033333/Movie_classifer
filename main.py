@@ -18,7 +18,7 @@ data['description'] = data['description'].apply(lambda x: x.translate(str.maketr
 
 # Create TF-IDF vectors
 vectorizer = TfidfVectorizer(max_features=5000)
-X = vectorizer.fit_trans
+X = vectorizer.fit_transform(data['description'])
 
 # Encode the labels
 label_encoder = LabelEncoder()
