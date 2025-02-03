@@ -5,7 +5,7 @@ This project is a movie genre classifier that determines whether a given movie d
 ## Project Structure
 
 - `main.py`: The main script that loads the dataset, preprocesses the data, trains the neural network model, and provides a Streamlit app for user interaction.
-- `assignment_1.4.csv`: The dataset containing movie descriptions and their corresponding genres.
+- `movies.csv`: The dataset containing movie descriptions and their corresponding genres.
 
 ## Requirements
 
